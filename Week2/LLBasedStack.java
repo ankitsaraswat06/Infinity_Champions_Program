@@ -50,5 +50,7 @@ public class LLBasedStack {
         System.out.println(st.peek());
         st.pop();
         System.out.println(st.isEmpty());
+        st.push(10);
+        System.out.println(st.peek());
     }
 }
